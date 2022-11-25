@@ -84,9 +84,9 @@ def pregunta_03():
     # Importe Pipeline
     from sklearn.pipeline import Pipeline
     # Importe OneHotEncoder
-    from sklearn.preprocessing import OneHotEncoder    from ____ import ____
+    from sklearn.preprocessing import OneHotEncoder
 
-    pipeline = ____(
+    pipeline = Pipeline(
         steps=[
             # Paso 1: Construya un column_transformer que aplica OneHotEncoder a las
             # variables categóricas, y no aplica ninguna transformación al resto de
